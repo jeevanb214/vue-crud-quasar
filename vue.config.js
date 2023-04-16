@@ -9,5 +9,10 @@ module.exports = defineConfig({
       importStrategy: 'kebab',
       rtlSupport: false
     }
-  }
+  },
+  //for debug
+  configureWebpack: {
+    devtool:
+    'source-map'
+    },
 })
